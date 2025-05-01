@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function GeneralPhysicianPage() {
+export default async function GeneralPhysicianPage() {
   // Get mock doctors for structured data
   const doctors = getMockDoctors()
 

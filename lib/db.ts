@@ -41,7 +41,7 @@ declare global {
   var mongoose: { conn: mongoose.Mongoose | null, promise: Promise<mongoose.Mongoose> | null };
 }
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/apollo-clone";
+const MONGODB_URI = process.env.MONGO_URI || "mongodb://localhost:27017/apollo-clone";
 
 // Initialize the cached object if it doesn't exist
 let cached = global.mongoose;
